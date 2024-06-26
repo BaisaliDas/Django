@@ -7,5 +7,5 @@ def telugu(request):
 def Baisali(request):
     return HttpResponse('<h1><marquee>shant kuutte, Era kukka <marquee></h1>')
 
-def changu(request):
-    return HttpResponse('<h1><marquee>mangu, changu, ill beat u<marquee></h1>')
+def moovie(request):
+    return HttpResponse('<h1><marquee>watch movie<marquee></h1>')

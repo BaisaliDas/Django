@@ -25,5 +25,5 @@ urlpatterns = [
     #------dummy-----
     path('telugu/',telugu,name='telugu'),
     path('Baisali/',Baisali,name='Baisali'),
-    path('changu/',changu,name='changu'),
+    path('moovie/',moovie,name='moovie'),
 ]

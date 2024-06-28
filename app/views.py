@@ -1,12 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
-def telugu(request):
+def telugu(response):
     return HttpResponse("This is our telugu movie function")
 
-def Baisali(request):
+def Baisali(response):
     return HttpResponse('<h1><marquee>shant kuutte, Era kukka <marquee></h1>')
 
-def moovie(request):
+def moovie(response):
     return HttpResponse('<h1><marquee>watch movie<marquee></h1>')
 

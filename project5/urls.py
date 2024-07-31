@@ -1,5 +1,5 @@
 """
-URL configuration for recommendationSystem project.
+URL configuration for project5 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -15,15 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-
-from app.views import *
+from django.urls import path,include
+# from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-    #------dummy-----
-    path('telugu/',telugu,name='telugu'),
-    path('Baisali/',Baisali,name='Baisali'),
-    path('moovie/',moovie,name='moovie'),
+    path('app/',include('app.urls')),
 ]
